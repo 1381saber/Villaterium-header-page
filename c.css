@@ -1,0 +1,214 @@
+/* استایل‌دهی به هدر */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+
+}
+
+.bodi {
+    background-color: #b8d0c5;
+}
+
+header {
+    background-color: #153630;
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+/* استایل‌دهی به بخش‌ها */
+.villa {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+img {
+    flex: 2;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+h1 {
+    margin-bottom: 54px;
+    display: flex;
+    font-size: 30px;
+    margin-right: 200px;
+}
+
+/* استایل‌دهی به آتریوم */
+.atrium {
+    flex: 1;
+    padding: 10px;
+    background-color: #77a48f;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.pic1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two equal-width columns */
+    grid-gap: 10px;
+}
+
+/* استایل‌دهی به اتاق نشیمن */
+.living-room {
+    flex: 1;
+    padding: 10px;
+    background-color: #507e6a;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* استایل‌دهی به اتاق‌ها */
+.bedrooms {
+    flex: 1;
+    padding: 10px;
+    background-color: #77a48f;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* استایل‌دهی به فوتر */
+footer {
+    background-color: #153630;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    height: 80px;
+}
+
+.h22{
+    margin-left: 335px;
+}
+
+.h26{
+    margin-left: 280px;
+}
+.h23{
+    margin-left: 120px;
+}
+
+.h24{
+    margin-left: 75px;
+}
+
+.h25{
+    margin-left: 80px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: 1000px;
+    font-size: 20px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #62d3a2;
+}
+
+
+.atr{
+    width: 440px;
+    margin-left: 100px;
+}
+.hall{
+    width: 600px;
+}
+.card {
+    margin-top: 20px;
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #333;
+    padding: 20px;
+    width: 600px;
+    height: 410px;
+    margin-left: 50px;
+    border-radius: 14px;
+    text-align: center;
+    background-color: rgb(98, 149, 124);
+    box-shadow: 0 4px 8px rgba(39, 39, 39, 0.1);
+}
+
+.card-title {
+    margin-top: 0;
+    color: #333;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.b1{
+    width: 400px;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+.brooms{
+    width: 500px;
+    margin-left: 100px;
+}
+.btn {
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-right: 25px;
+    padding: 25px 25px;
+    border: none;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #385b53;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+.b2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 185px;
+    height: 75px;
+    font-size: large;
+    /* background-color: #224c41; */
+    background-color: #dee9e4;
+    color: black;
+}
+
+.b2:hover{
+    background-color: #dee9e4;
+    color: black;
+}
+
+.b1:hover {
+    background-color: #202c26;
+}
